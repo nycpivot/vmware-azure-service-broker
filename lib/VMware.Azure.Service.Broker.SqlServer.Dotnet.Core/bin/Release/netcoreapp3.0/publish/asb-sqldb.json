@@ -1,0 +1,11 @@
+{
+  "resourceGroup": "azure-service-broker",
+  "location": "eastus",
+  "sqldbName": "asb-sqldb",
+  "transparentDataEncryption": true,
+  "sqldbParameters": {
+      "properties": {
+          "collation": "SQL_Latin1_General_CP1_CI_AS"
+      }
+  }
+}
