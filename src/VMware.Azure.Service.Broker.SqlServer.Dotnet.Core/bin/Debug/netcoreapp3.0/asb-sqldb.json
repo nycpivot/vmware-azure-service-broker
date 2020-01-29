@@ -1,0 +1,11 @@
+{
+  "resourceGroup": "ey-demo",
+  "location": "eastus",
+  "sqldbName": "ey-demo-sqldb",
+  "transparentDataEncryption": true,
+  "sqldbParameters": {
+      "properties": {
+          "collation": "SQL_Latin1_General_CP1_CI_AS"
+      }
+  }
+}
