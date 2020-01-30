@@ -1,0 +1,7 @@
+{
+  "resourceGroup": "azure-service-broker",
+  "cosmosDbAccountName": "asb-cosmosdb",
+  "cosmosDbName": "asb-cosmosdb",
+  "location": "eastus",
+  "kind": "DocumentDB"
+}

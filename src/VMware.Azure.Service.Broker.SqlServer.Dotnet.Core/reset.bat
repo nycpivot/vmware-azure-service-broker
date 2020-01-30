@@ -10,6 +10,6 @@ cf delete-service asb-sqldb -f
 pause
 @cls
 
-cf vmware-azure-service-broker-sqlserver-dotnet-core -r -f
+cf delete vmware-azure-service-broker-sqlserver-dotnet-core -r -f
 pause
 @cls

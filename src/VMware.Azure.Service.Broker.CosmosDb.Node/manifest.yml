@@ -1,0 +1,6 @@
+---
+applications:
+- name: ey-demo
+  buildpack: nodejs_buildpack
+services:
+    - ey-demo-cosmos
