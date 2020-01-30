@@ -1,9 +1,0 @@
-﻿---
-applications:
--   name: vmware-azure-service-broker-sqlserver-dotnet-core
-    buildpacks:
-    -   dotnet_core_buildpack
-    disk_quota: 512M
-    memory: 512M
-    services:
-    -   asb-sqldb
