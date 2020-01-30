@@ -5353,7 +5353,8 @@
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1",
       "Steeltoe.CloudFoundry.Connector.EFCore >= 2.4.1",
-      "Steeltoe.Common.Hosting >= 2.4.1"
+      "Steeltoe.Common.Hosting >= 2.4.1",
+      "Steeltoe.Extensions.Configuration.CloudFoundryCore >= 2.4.1"
     ]
   },
   "packageFolders": {
@@ -5407,6 +5408,10 @@
             "version": "[2.4.1, )"
           },
           "Steeltoe.Common.Hosting": {
+            "target": "Package",
+            "version": "[2.4.1, )"
+          },
+          "Steeltoe.Extensions.Configuration.CloudFoundryCore": {
             "target": "Package",
             "version": "[2.4.1, )"
           }

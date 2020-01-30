@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Steeltoe.CloudFoundry.Connector.SqlServer.EFCore;
+using System;
 using VMware.Azure.Service.Broker.SqlServer.Dotnet.Core.Contexts;
 
 namespace VMware.Azure.Service.Broker.SqlServer.Dotnet.Core
@@ -41,6 +43,9 @@ namespace VMware.Azure.Service.Broker.SqlServer.Dotnet.Core
 
             // make sure database exists, and if not,
             // create it and the tables according to the context definition
+            var connectionString = companyContext.Database.GetDbConnection().ConnectionString;
+            Console.WriteLine("CONNECTION: " + connectionString);
+
             companyContext.Database.EnsureCreated();
 
             app.UseHttpsRedirection();

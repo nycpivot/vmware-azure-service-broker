@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Steeltoe.Common.Hosting;
+using Steeltoe.Extensions.Configuration.CloudFoundry;
 
 namespace VMware.Azure.Service.Broker.SqlServer.Dotnet.Core
 {
@@ -13,8 +14,8 @@ namespace VMware.Azure.Service.Broker.SqlServer.Dotnet.Core
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                // run app on port configured by cloud foundry
-                .UseCloudHosting()
+                .UseCloudHosting() // run app on port configured by cloud foundry
+                .AddCloudFoundry() // read vcap_ environment variables
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
