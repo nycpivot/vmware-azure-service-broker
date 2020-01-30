@@ -1,0 +1,16 @@
+﻿<h3>Products</h3>
+
+<table class="table-striped" style="width: 90%;">
+    @{ 
+        foreach(var product in ViewBag.Products)
+        {
+            <tr>
+                <td>@product.Code</td>
+                <td>@product.Name</td>
+                <td>@product.Color</td>
+                <td>@product.Price</td>
+                <td style="text-align: right;"><img style="width: 100px; height: 100px;" src="img/@product.Image" /></td>
+            </tr>
+        }
+    }
+</table>

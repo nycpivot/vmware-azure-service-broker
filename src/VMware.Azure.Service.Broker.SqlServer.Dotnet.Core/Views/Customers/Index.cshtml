@@ -1,14 +1,12 @@
 ﻿<h3>Customers</h3>
 
 <table class="table-dark">
-    <thead>Id</thead>
     <thead>First Name</thead>
     <thead>Last Name</thead>
     @{ 
         foreach(var customer in ViewBag.Customers)
         {
             <tr>
-                <td>@customer.Id</td>
                 <td>@customer.FirstName</td>
                 <td>@customer.LastName</td>
             </tr>

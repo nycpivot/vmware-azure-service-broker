@@ -43,9 +43,6 @@ namespace VMware.Azure.Service.Broker.SqlServer.Dotnet.Core
 
             // make sure database exists, and if not,
             // create it and the tables according to the context definition
-            var connectionString = companyContext.Database.GetDbConnection().ConnectionString;
-            Console.WriteLine("CONNECTION: " + connectionString);
-
             companyContext.Database.EnsureCreated();
 
             app.UseHttpsRedirection();

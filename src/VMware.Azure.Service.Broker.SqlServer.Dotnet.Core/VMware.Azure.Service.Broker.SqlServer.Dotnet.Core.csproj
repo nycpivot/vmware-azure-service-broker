@@ -29,4 +29,11 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\img\642925.jpg" />
+    <None Include="wwwroot\img\804-4037.jpg" />
+    <None Include="wwwroot\img\P89135.jpg" />
+    <None Include="wwwroot\img\RB307.jpg" />
+  </ItemGroup>
+
 </Project>
