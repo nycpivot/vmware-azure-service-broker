@@ -77,3 +77,4 @@ C:\Projects\vmware-azure-service-broker\src\VMware.Azure.Service.Broker.SqlServe
 C:\Projects\vmware-azure-service-broker\src\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core\obj\Release\netcoreapp3.0\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core.csproj.CopyComplete
 C:\Projects\vmware-azure-service-broker\src\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core\obj\Release\netcoreapp3.0\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core.dll
 C:\Projects\vmware-azure-service-broker\src\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core\obj\Release\netcoreapp3.0\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core.pdb
+C:\Projects\vmware-azure-service-broker\src\VMware.Azure.Service.Broker.SqlServer.Dotnet.Core\bin\Release\netcoreapp3.0\asb-sqldb-details.json
