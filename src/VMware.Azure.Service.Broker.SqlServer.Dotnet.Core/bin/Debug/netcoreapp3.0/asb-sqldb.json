@@ -1,7 +1,7 @@
 {
-  "resourceGroup": "ey-demo",
+  "resourceGroup": "azure-service-broker",
   "location": "eastus",
-  "sqldbName": "ey-demo-sqldb",
+  "sqldbName": "asb-sqldb",
   "transparentDataEncryption": true,
   "sqldbParameters": {
       "properties": {

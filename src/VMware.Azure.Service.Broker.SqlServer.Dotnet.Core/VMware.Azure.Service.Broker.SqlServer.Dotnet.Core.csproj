@@ -11,6 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="asb-sqldb-details.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="asb-sqldb.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
