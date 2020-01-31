@@ -1,6 +1,6 @@
 ---
 applications:
-- name: ey-demo
+- name: vmware-azure-service-broker-cosmosdb-node
   buildpack: nodejs_buildpack
 services:
-    - ey-demo-cosmos
+    - asb-cosmosdb
